@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-@font-face {
-  font-family: "Neutra Text";
-  src: url(src/assets/fonts/Neutra-Text-Bold.otf);
-}
-
 body {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #ECF2F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: "Open Sans";
   height: 100vh;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
 }
 
@@ -28,18 +32,25 @@ body {
 }
 
 .js span {
-  font-family: "Neutra Text";
+  font-family: "Raleway";
   font-size: 150px;
   margin-left: 120px;
 }
 
 section {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #48556A;
   border-radius: 5px;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -52,10 +63,12 @@ section h1 {
 }
 
 .btn {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background-color: white;
   border: none;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
   cursor: pointer;
   font-family: inherit;
   font-size: 18px;
@@ -64,12 +77,19 @@ section h1 {
 }
 
 .btn:active {
-  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 section p {
   font-size: 13px;
-  margin-top: 5px;
+  margin-top: 15px;
+}
+
+section a {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway";
 }
 
 @media only screen and (min-width: 750px) {
@@ -82,7 +102,7 @@ section p {
   }
   
   .js span {
-    font-family: "Neutra Text";
+    font-family: "Raleway";
     font-size: 180px;
     margin-left: 180px;
   }
