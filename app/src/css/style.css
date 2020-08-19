@@ -1,12 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-@font-face {
-  font-family: "Neutra Text";
-  src: url(src/assets/fonts/Neutra-Text-Bold.otf);
 }
 
 body {
@@ -28,7 +25,7 @@ body {
 }
 
 .js span {
-  font-family: "Neutra Text";
+  font-family: "Raleway";
   font-size: 150px;
   margin-left: 120px;
 }
@@ -69,7 +66,13 @@ section h1 {
 
 section p {
   font-size: 13px;
-  margin-top: 5px;
+  margin-top: 15px;
+}
+
+section a {
+  text-decoration: none;
+  color: white;
+  font-family: "Raleway";
 }
 
 @media only screen and (min-width: 750px) {
@@ -82,7 +85,7 @@ section p {
   }
   
   .js span {
-    font-family: "Neutra Text";
+    font-family: "Raleway";
     font-size: 180px;
     margin-left: 180px;
   }
