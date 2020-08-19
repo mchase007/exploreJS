@@ -55,7 +55,7 @@ section h1 {
   appearance: none;
   background-color: white;
   border: none;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
   cursor: pointer;
   font-family: inherit;
   font-size: 18px;
